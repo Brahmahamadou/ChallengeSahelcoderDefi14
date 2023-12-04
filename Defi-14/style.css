@@ -1,0 +1,89 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.conteneur{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+}
+.partie1{
+    width: 400px;
+    height: 800px;
+    background-color: rgb(243, 204, 184);
+    border-radius: 30px;
+}
+.partie2{
+    width: 400px;
+    height: 800px;
+    background-color: rgb(240, 134, 58);
+    border-radius: 30px;
+}
+.liens_sociaux img{
+    width: 40px;
+    padding: 2px;
+    border-radius: 10px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 1rem;
+    background-color: rgb(240, 134, 58);
+}
+.question{
+    display: flex;
+    text-align: center;
+    margin-left: 6rem;
+}
+.question a{
+    margin-left: 10px;
+}
+.contenu{
+    text-align: center;
+}
+.inpu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    padding-left: 10px;
+}
+button{
+    width: 362px;
+    height: 45px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.password #eyes{
+    position: relative;
+    left: 90%;
+}
+.password2 #eyes{
+    position: relative;
+    left: 90%;
+}
+#pass{
+    margin-left: -20px;
+}
+h3{
+    margin-left: 1rem;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: chocolate;
+    width: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+}
+button p{
+color: rgb(160, 91, 7);
+font-weight: bold;
+font-style: oblique;
+}
